@@ -8,6 +8,7 @@ public class Bird : Animal
   List<Type> _birdConsumables = [typeof(Worm)];
   DateTime _timeGotUp;
   public DateTime GetTimeGotUp => _timeGotUp;
+  public Bird() { }
   public Bird(DateTime timeGotUp)
   {
     _timeGotUp = timeGotUp;
@@ -26,3 +27,5 @@ public class Bird : Animal
     return _birdConsumables.Contains(food.GetType());
   }
 }
+
+public class ObjectForFirstSaying : Bird { }

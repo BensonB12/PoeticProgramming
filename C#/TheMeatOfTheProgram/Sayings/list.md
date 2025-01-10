@@ -1,0 +1,81 @@
+# Sayings
+
+- If the shoe fits, wear it
+- The early bird gets the worm
+
+- The second mouse gets the cheese
+- Speak of the devil, and he shall appear
+- Jack of all trades, a master of none, but always better than the master of one
+- The pen is mightier than the sword
+- Curiosity killed the cat, but satisfaction brought it back
+- When in Rome, do as Romans do
+- Rome wan't built in a day
+- Money is the root of all evil
+- Life is a highway
+- An apple a day keeps the doctor away
+- You snooze you, you lose
+- Don't count your chickens before they hatch
+- Don't put all your eggs in one basket
+- No pain, no gain
+- Go ahead, make my day
+- Slow and steady wins the race
+- Work harder, not smarter
+- Where there's a will, there's a way
+- Better safe then sorry
+- Look before you leap
+- Don't bite off more than you can chew
+- Don't bite the hand the feeds you
+- Two birds with one stone
+- Break a leg
+- Beat around the bush
+- Bite the bullet
+- By the skin of your teeth
+- Costs an arm and a leg
+- Cutting corners
+- A blessing in disguise
+- Hit the sack
+- Cry over spilled milk
+- Barking up the wrong tree
+- Why don't you pick on someone your own size
+- A penny for your thoughts
+- At the drop of a hat
+- Better late then never
+- Add insult to injury
+- Piece of cake
+- Once in a blue moon
+- A picture is worth a thousand words
+- When the going gets tough, the tough get going
+- If you can't beat them, join them
+- One man's trash is another man's treasure
+- What goes around comes around
+- Ever cloud has a silver lining
+- The grass is greener on the other side
+- You can't have you cake and eat it too
+- You are what you eat
+- Diamonds are a girls best friend
+- Don't bring a knife to a gun fight
+- Early to bed and early to rise makes a man healthy, wealthy, and wise
+- Good things come to those who wait
+- Patience is a virtue
+- What you reap is what you sow
+- Fortune favors the brave
+- Measure twice, cut once
+- Don't judge a book by its cover
+- Even a broken clock is right twice a day
+- Every rose has it thorn
+- Life is like a box of chocolates; you never know what you're gonna get
+- Money does not grow on trees
+- The devil is in the details
+- Birds of a feather flock together
+- Sleep like a rock
+- Don't fly too close to the sun
+- When life gives you lemons make lemonade
+- We're going to need a bigger boat
+- Luke, I am your father
+- Just do it
+- What doesn't kill you makes you stronger
+- Beauty is the eye of the beholder
+- The eyes are the windows to the sole
+- After every storm, there is a rainbow
+- Life isn't about waiting for the storm to pass, it is about learning to dance in the rain
+- As the crow flies
