@@ -1,6 +1,6 @@
 using System.IO.Compression;
-using TheMeatOfTheProgram.Sayings.Animal;
-using TheMeatOfTheProgram.Sayings.Item;
+using TheMeatOfTheProgram.Sayings.Animals;
+using TheMeatOfTheProgram.Sayings.Items;
 
 public class Human : Animal
 {
@@ -15,9 +15,9 @@ public class Human : Animal
   public void Wear(Clothing clothing) { }
 }
 
-public class ObjectForSecondSaying : Human
+public class Entity : Human
 {
-  public ObjectForSecondSaying() : base(0) { }
+  public Entity() : base(0) { }
 
   public int Size => ShoeSize;
 

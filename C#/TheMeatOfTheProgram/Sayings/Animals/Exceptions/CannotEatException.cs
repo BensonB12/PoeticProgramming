@@ -1,4 +1,4 @@
-namespace TheMeatOfTheProgram.Sayings.Animal.Exertions;
+namespace TheMeatOfTheProgram.Sayings.Animals.Exertions;
 
 public class CannotEatException : Exception
 {

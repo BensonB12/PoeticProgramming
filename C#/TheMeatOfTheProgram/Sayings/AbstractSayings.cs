@@ -1,18 +1,16 @@
-using TheMeatOfTheProgram.Sayings.Animal;
-using TheMeatOfTheProgram.Sayings.Item;
+using TheMeatOfTheProgram.Sayings.Animals;
+using TheMeatOfTheProgram.Sayings.Items;
 namespace TheMeatOfTheProgram.Sayings;
 
-public class AbstractSayings
+public static class AbstractSaying
 {
   /// <summary>
   /// English expression
   /// William Camden in 1605
   /// </summary>  
-  public static void One()
+  public static void AFlapperEats(ref IEnumerable<Flapper> flappers)
   {
-    List<ObjectForFirstSaying> somethings = [];
-
-    var subject = somethings.MinBy(b => b.GetTimeGotUp);
+    var subject = flappers.MinBy(b => b.TimeGotUp);
 
     subject?.Eat(new Food());
   }
@@ -22,14 +20,11 @@ public class AbstractSayings
   /// American idiom
   /// Daniel Defoe 1705 (kind of)
   /// </summary>
-  public static void Two()
+  public static void IfArticleIsTheSameSizeAsEntityThenEntityDonsArticle(Article article, ref Entity entity)
   {
-    SubjectForSecondSaying subject = new();
-    ObjectForSecondSaying something = new();
-
-    if (subject.Size == something.Size)
+    if (article.Size == entity.Size)
     {
-      something.Don(subject);
+      entity.Don(article);
     }
   }
 }

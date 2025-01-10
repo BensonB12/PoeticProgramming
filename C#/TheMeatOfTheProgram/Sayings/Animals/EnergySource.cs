@@ -1,4 +1,4 @@
-namespace TheMeatOfTheProgram.Sayings.Animal;
+namespace TheMeatOfTheProgram.Sayings.Animals;
 
 public interface EnergySource { }
 

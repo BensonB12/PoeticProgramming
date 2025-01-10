@@ -1,14 +1,15 @@
-using TheMeatOfTheProgram.Sayings.Animal.Exertions;
+using TheMeatOfTheProgram.Sayings.Animals.Exertions;
 
-namespace TheMeatOfTheProgram.Sayings.Animal;
+namespace TheMeatOfTheProgram.Sayings.Animals;
 
 
 public class Bird : Animal
 {
-  List<Type> _birdConsumables = [typeof(Worm)];
+  List<Type> _birdConsumables = [typeof(Worm), typeof(Food)];
   DateTime _timeGotUp;
-  public DateTime GetTimeGotUp => _timeGotUp;
-  public Bird() { }
+  public DateTime TimeGotUp => _timeGotUp;
+  List<EnergySource> _energySources = [];
+  public List<EnergySource> EnergySources => _energySources;
   public Bird(DateTime timeGotUp)
   {
     _timeGotUp = timeGotUp;
@@ -20,6 +21,10 @@ public class Bird : Animal
     {
       throw new CannotEatException("bird", food.GetType().Name);
     }
+    else
+    {
+      _energySources.Add(food);
+    }
   }
 
   bool isConsumable(EnergySource food)
@@ -28,4 +33,4 @@ public class Bird : Animal
   }
 }
 
-public class ObjectForFirstSaying : Bird { }
+public class Flapper(DateTime timeGotUp) : Bird(timeGotUp) { }

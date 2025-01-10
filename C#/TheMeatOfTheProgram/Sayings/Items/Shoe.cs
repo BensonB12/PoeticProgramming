@@ -1,4 +1,4 @@
-namespace TheMeatOfTheProgram.Sayings.Item;
+namespace TheMeatOfTheProgram.Sayings.Items;
 
 public class Shoe : Clothing
 {
@@ -11,7 +11,7 @@ public class Shoe : Clothing
   }
 }
 
-public class SubjectForSecondSaying : Shoe
+public class Article : Shoe
 {
-  public SubjectForSecondSaying() : base(0) { }
+  public Article() : base(0) { }
 }

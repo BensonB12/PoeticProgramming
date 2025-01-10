@@ -1,4 +1,4 @@
-namespace TheMeatOfTheProgram.Sayings.Animal;
+namespace TheMeatOfTheProgram.Sayings.Animals;
 public interface Animal : EnergySource { }
 
-class Worm : Animal { }
+public class Worm : Animal { }

@@ -1,3 +1,3 @@
-namespace TheMeatOfTheProgram.Sayings.Item;
+namespace TheMeatOfTheProgram.Sayings.Items;
 
 public interface Clothing { }

@@ -1,8 +1,8 @@
-using TheMeatOfTheProgram.Sayings.Animal;
-using TheMeatOfTheProgram.Sayings.Item;
+using TheMeatOfTheProgram.Sayings.Animals;
+using TheMeatOfTheProgram.Sayings.Items;
 namespace TheMeatOfTheProgram.Sayings;
 
-public class Sayings
+public static class Saying
 {
   /// <summary>
   /// THE EARLY BIRD GETS THE WORM
@@ -11,14 +11,11 @@ public class Sayings
   /// English expression
   /// William Camden in 1605
   /// </summary>
-  public static void EarlyBirdGetsTheWorm()
+  public static void EarlyBirdGetsTheWorm(ref IEnumerable<Bird> birds)
   {
-    List<Bird> allBirds = [];
-    Worm worm = new();
+    Bird? earliestBird = birds.MinBy(bird => bird.TimeGotUp);
 
-    Bird? earliestBird = allBirds.MinBy(bird => bird.GetTimeGotUp);
-
-    earliestBird?.Eat(worm);
+    earliestBird?.Eat(new Worm());
   }
 
 
@@ -29,15 +26,11 @@ public class Sayings
   /// American Idiom
   /// Daniel Defoe in 1705 (Technically the author of 'cap fits' in england, but whatever)
   /// </summary>
-  public static void IfTheShoeFits()
+  public static void IfTheShoeFitsWearIt(Shoe shoe, ref Human human)
   {
-    Shoe shoe = new(1);
-    Human human = new(1);
-
     if (shoe.Size == human.ShoeSize)
     {
       human.Wear(shoe);
     }
   }
-
 }

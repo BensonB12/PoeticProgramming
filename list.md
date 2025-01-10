@@ -79,3 +79,4 @@
 - After every storm, there is a rainbow
 - Life isn't about waiting for the storm to pass, it is about learning to dance in the rain
 - As the crow flies
+- Hold your horses
