@@ -10,9 +10,9 @@ public static class AbstractSaying
   /// </summary>  
   public static void AFlapperEats(ref IEnumerable<Flapper> flappers)
   {
-    var subject = flappers.MinBy(b => b.TimeGotUp);
+    var minFlapper = flappers.MinBy(b => b.TimeGotUp);
 
-    subject?.Eat(new Food());
+    minFlapper?.Eat(new Food());
   }
 
 

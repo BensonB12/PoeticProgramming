@@ -1,6 +1,6 @@
 namespace TheMeatOfTheProgram.Sayings.Items;
 
-public class Shoe : Clothing
+public class Shoe : ClothingItem
 {
   int _size;
   public int Size => _size;
@@ -13,5 +13,5 @@ public class Shoe : Clothing
 
 public class Article : Shoe
 {
-  public Article() : base(0) { }
+  public Article(int size) : base(size) { }
 }

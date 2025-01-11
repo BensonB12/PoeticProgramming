@@ -2,7 +2,7 @@ using FluentAssertions;
 using TheMeatOfTheProgram.Sayings;
 using TheMeatOfTheProgram.Sayings.Animals;
 
-namespace Tests.Sayings.EarlyBird;
+namespace Tests.Sayings;
 
 public class EarlyBird
 {

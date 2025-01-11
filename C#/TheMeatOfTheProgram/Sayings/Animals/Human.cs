@@ -6,23 +6,28 @@ public class Human : Animal
 {
   int _shoeSize;
   public int ShoeSize => _shoeSize;
+  List<ClothingItem> _clothing = new();
+  public List<ClothingItem> Clothing => _clothing;
 
   public Human(int shoeSize)
   {
     _shoeSize = shoeSize;
   }
 
-  public void Wear(Clothing clothing) { }
+  public void Wear(ClothingItem clothingItem)
+  {
+    _clothing.Add(clothingItem);
+  }
 }
 
 public class Entity : Human
 {
-  public Entity() : base(0) { }
-
   public int Size => ShoeSize;
+  public List<ClothingItem> HasDonned => Clothing;
+  public Entity(int size) : base(size) { }
 
-  public void Don(Clothing clothing)
+  public void Don(ClothingItem clothingItem)
   {
-    Wear(clothing);
+    Wear(clothingItem);
   }
 }
