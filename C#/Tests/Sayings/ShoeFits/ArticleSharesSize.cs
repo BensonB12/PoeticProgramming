@@ -1,5 +1,6 @@
 using FluentAssertions;
 using TheMeatOfTheProgram.Sayings;
+using TheMeatOfTheProgram.Sayings.Animals;
 using TheMeatOfTheProgram.Sayings.Items;
 
 namespace Tests.Sayings;

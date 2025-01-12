@@ -3,8 +3,9 @@
 - If the shoe fits, wear it
 - The early bird gets the worm
 
-- The second mouse gets the cheese
 - Speak of the devil, and he shall appear
+
+- The second mouse gets the cheese
 - Jack of all trades, a master of none, but always better than the master of one
 - The pen is mightier than the sword
 - Curiosity killed the cat, but satisfaction brought it back

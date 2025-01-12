@@ -5,11 +5,11 @@ namespace TheMeatOfTheProgram.Sayings.Animals;
 
 public class Bird : Animal
 {
-  List<Type> _birdConsumables = [typeof(Worm), typeof(Food)];
+  IEnumerable<Type> _birdConsumables = [typeof(Worm), typeof(Food)];
   DateTime _timeGotUp;
   public DateTime TimeGotUp => _timeGotUp;
-  List<EnergySource> _energySources = [];
-  public List<EnergySource> EnergySources => _energySources;
+  IEnumerable<EnergySource> _energySources = [];
+  public IEnumerable<EnergySource> EnergySources => _energySources;
   public Bird(DateTime timeGotUp)
   {
     _timeGotUp = timeGotUp;
@@ -23,7 +23,7 @@ public class Bird : Animal
     }
     else
     {
-      _energySources.Add(food);
+      _energySources = _energySources.Append(food);
     }
   }
 
