@@ -12,7 +12,7 @@ public class SpeakOfTheDevil
     Human human = new();
 
     // When
-    human.Speak("devil");
+    human.Speak("... devil ...");
 
     // Then
     Devil.HasAppearedTo.Should().Contain(human);
@@ -23,13 +23,12 @@ public class SpeakOfTheDevil
   {
     // Given
     Human human = new();
-    Devil.ResetHasAppearedTo();
 
     // When
-    human.Speak("daredevil");
+    human.Speak("... daredevil ...");
 
     // Then
-    Devil.HasAppearedTo.Should().BeEmpty();
+    Devil.HasAppearedTo.Should().NotContain(human);
   }
 
   [Fact]
@@ -39,9 +38,8 @@ public class SpeakOfTheDevil
     Human human = new();
 
     // When
-    human.Speak("devils");
+    human.Speak("... Devil's ...");
 
-    var humans = Devil.HasAppearedTo;
     // Then
     Devil.HasAppearedTo.Should().Contain(human);
   }

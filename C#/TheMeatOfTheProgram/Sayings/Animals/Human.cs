@@ -36,7 +36,7 @@ public class Human : Animal
 
   public void Speak(string words)
   {
-    if (Regex.IsMatch(words, @"\bdevil('s|s)?\b", RegexOptions.IgnoreCase))
+    if (Regex.IsMatch(words, @"\bdevil('s|s|s')?\b", RegexOptions.IgnoreCase))
     {
       _speaksOfTheDevil?.Invoke(this);
     }
@@ -45,10 +45,30 @@ public class Human : Animal
 
 public class Entity : Human
 {
+  delegate void NotifyEventHandler(Entity entity);
+  event NotifyEventHandler _speaksOfTheEntity = delegate { };
   public int Size => ShoeSize;
+  public Entity() : base()
+  {
+    initializeEntity();
+  }
   public IEnumerable<ClothingItem> HasDonned => Clothing;
-  public Entity(int size) : base(size) { }
-
+  public Entity(int size) : base(size)
+  {
+    initializeEntity();
+  }
+  void initializeEntity()
+  {
+    _speaksOfTheEntity += TheEntity.IsSpokenOf;
+  }
+  public void MakeNoise(string noise)
+  {
+    if (Regex.IsMatch(noise, @"\bthe entity('s|s|s')?\b", RegexOptions.IgnoreCase))
+    {
+      _speaksOfTheEntity?.Invoke(this);
+    }
+    Speak(noise);
+  }
   public void Don(ClothingItem clothingItem)
   {
     Wear(clothingItem);
