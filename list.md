@@ -2,8 +2,7 @@
 
 - If the shoe fits, wear it
 - The early bird gets the worm
-
-- Speak of the devil, and he shall appear
+- Speak of the devil, and he shall appear (Test Only)
 
 - The second mouse gets the cheese
 - Jack of all trades, a master of none, but always better than the master of one

@@ -17,8 +17,9 @@ public static class AbstractSaying
 
 
   /// <summary>
-  /// American idiom
-  /// Daniel Defoe 1705 (kind of)
+  /// Started English, now viewed as an American Idiom
+  /// The newest 'American form' is being represented here
+  /// Daniel Defoe in 1705
   /// </summary>
   public static void IfArticleIsTheSameSizeAsEntityThenEntityDonsArticle(Article article, ref Entity entity)
   {

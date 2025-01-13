@@ -3,6 +3,10 @@ using TheMeatOfTheProgram.Sayings.Animals;
 
 namespace Tests.Sayings;
 
+/// <summary>
+/// Italian Phrase
+/// 1666 by Giovanni Torriano
+/// </summary>
 public class MakeNoiseOfTheEntity
 {
   [Fact]
@@ -19,7 +23,7 @@ public class MakeNoiseOfTheEntity
   }
 
   [Fact]
-  public void DoNotSpeakOfTheDevilAndHeWillNotAppear()
+  public void DoNotMakeNoiseOfTheEntityAndItWillNotEmerge()
   {
     // Given
     Entity entity = new();
@@ -32,7 +36,7 @@ public class MakeNoiseOfTheEntity
   }
 
   [Fact]
-  public void SpeakOfTheDevilInPluralAndHeWillAppear()
+  public void SpeakOfTheEntityInPossessionAndItWillEmerge()
   {
     // Given
     Entity entity = new();
