@@ -1,4 +1,4 @@
-using System.IO.Compression;
+using System.Text.RegularExpressions;
 using TheMeatOfTheProgram.Sayings.Items;
 
 namespace TheMeatOfTheProgram.Sayings.Animals;
@@ -36,7 +36,7 @@ public class Human : Animal
 
   public void Speak(string words)
   {
-    if (words.Contains("devil", StringComparison.OrdinalIgnoreCase))
+    if (Regex.IsMatch(words, @"\bdevil('s|s)?\b", RegexOptions.IgnoreCase))
     {
       _speaksOfTheDevil?.Invoke(this);
     }
