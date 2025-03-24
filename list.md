@@ -80,3 +80,6 @@
 - Life isn't about waiting for the storm to pass, it is about learning to dance in the rain
 - As the crow flies
 - Hold your horses
+- Look before you leap
+- He who hesitates is lost
+- Bran Spankin' new
