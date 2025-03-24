@@ -83,3 +83,4 @@
 - Look before you leap
 - He who hesitates is lost
 - Bran Spankin' new
+- Many hands make light work
